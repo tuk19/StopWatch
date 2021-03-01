@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>ストップウォッチ</title>
+        <link rel="stylesheet" href="main.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <h3>ストップウォッチ</h3>
+        <div class="time_count">
+            <p id="hour">0</p>
+            <p>:</p>
+            <p id="minute">0</p>
+            <p>:</p>
+            <p id="second">0</p>
+            <p>:</p>
+            <p id="m_second">0</p>
+        </div>
+        <button class="button" id="start" onclick="count_start()">スタート</button>
+        <button class="button" id="stop">ストップ</button>
+        <button class="button" id="reset">リセット</button>
+        <script type="text/javascript" src="main.js" charset="UTF-8"></script>
+    </body>
+</html>
